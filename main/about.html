@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon"  href="/favicon.ico"/>
+    
+    <link rel="icon" type="image/png" href="./images/table.png">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+  
+  
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../images/round 2.png" alt="Logo" width="120" height="65" class="d-inline-block align-text-top img-gluid">
+            
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto px-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./project.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact me</a>
+              </li>
+            </ul>
+            <div class="icons justify-content-end p-2">
+              <input class="btn btn-outline-light" type="button" onclick="tooglemode()" id="btn1" value="Dark mode">
+                <a href="https://github.com/sathish2003-pixel"> <i class="fa-brands fa-github fa-2xl"></i></a>
+          <a href="https://www.linkedin.com/in/sathish-kumar-balakrishnan-3436611b5/"><i class="fa-brands fa-linkedin fa-xl"></i></a>   
+          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-2xl"></i></a>  
+
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="about">
+      <div class="container pt-5">
+        <div class="row mt-5" style="align-content: center;">
+            <div class="col-lg-12 mt-5">
+                <h1 class="name text-center">About</h1>
+            </div>
+        </div>
+        <div class="row mt-5" style="align-content: center;">
+          <div class="col-lg-8 col-md-8 col-sm-12">
+              <p>I am a passionate and skilled Python Full Stack Developer with a strong background in both front-end and back-end development. My goal is to create efficient, scalable, and user-friendly web applications that provide seamless experiences.</p>
+          </div>
+          <style>
+            .sathish{
+              border: 1px solid black;
+              
+              background-repeat: no-repeat;
+              background-size: cover;
+              border-radius: 30px;
+            }
+          </style>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="../images/IMG-20240129-WA0216.jpg" width="
+            380px" class="img-fluid sathish">
+          </div>
+      </div>
+      </div>
+  
+
+     
+      
+
+
+        <!-- Service Start -->
+        <style>
+          .card {
+            backdrop-filter: blur(5px) saturate(185%);
+    -webkit-backdrop-filter: blur(5px) saturate(185%);
+    background-color: rgba(1, 10, 30, 0.586);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.705);
+    cursor: pointer;
+          }
+
+.p-4{
+  color: white;
+}
+.back{
+  background: linear-gradient(rgba(15, 23, 43, 0.64), rgba(15, 23, 43, 0.749)),(rgba(247, 247, 247, 0.579), rgb(128, 133, 145)) ;
+  background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+    
+    
+
+}
+
+        </style>
+        <div class="back">
+        <div class="container-xxl back text-light py-5 my-5">
+          <div class="container">
+            <div class="row g-4">
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="card" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                      <div class="service-item rounded pt-3">
+                    
+                          <div class="p-4">
+                              <i class="fa-solid fa-desktop fa-4x text-warning mb-4"></i>
+                              <h5>Basic SEO</h5>
+                              <p>I can setup your project to use basic SEO principles which will push your project to the first page on search engines and save you ads money</p>
+                          </div>
+                      
+                      </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="card" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                      <div class="service-item rounded pt-3">
+                          <div class="p-4">
+                              <i class="fa-4x fa-solid fa-code text-warning mb-4"></i>
+                              <h5>Development</h5>
+                              <p>I can code my own designs or even use the customer's design as base. My focus is to generate clean code that's well structured for reliability</p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="card" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                      <div class="service-item rounded pt-3">
+                          <div class="p-4">
+                              <i class="fa fa-4x fa-figma text-warning mb-4"></i>
+
+                              <h5>Design</h5>
+                              <p>Successful online projects start with good design. It establishes a solid foundation for future development 
+                              </p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+                  <div class="col-lg-3 col-sm-6">
+                    <div class="card" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                      <div class="service-item rounded pt-3">
+                          <div class="p-4">
+                              <i class="fa fa-4x fa-database text-warning mb-4"></i>
+                              <h5>Database</h5>
+                              <p>We now deliver our signature, authentic Buhari food to you in the comfort of your place. Click above to order online.
+
+                              </p>
+                          </div>
+                          </div>
+                      </div>
+                  </div>
+
+
+
+              </div>
+            
+              <!-- row ends -->
+              <div class="row g-4 pt-5">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="card" data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-4x fa-figma text-warning mb-4"></i>
+
+                            <h5>Design</h5>
+                            <p>Successful online projects start with good design. It establishes a solid foundation for future development 
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="card" data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-4x fa-mobile-screen-button text-warning mb-4"></i>
+                            <h5>App development</h5>
+                            <p>Successful online projects start with good design. It establishes a solid foundation for future development 
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-lg-3 col-sm-6">
+                  <div class="card" data-aos="flip-left"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000">
+                    <div class="service-item rounded pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-4x fa-code-branch text-warning mb-4"></i>
+                            <h5>GIT</h5>
+                            <p>Successful online projects start with good design. It establishes a solid foundation for future development 
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+  
+                
+
+
+
+
+
+
+                </div>
+              </div>
+          </div>
+      </div>
+     
+      
+      <!-- Service End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+      <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+      
+</body>
+</html>
